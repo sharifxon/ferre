@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+    width: 100%;
+    height: 90vh;
+}
+.box1{
+    width: 25%;
+
+}
+.box0{
+    width: 73%;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 90%;
+}
+.keyingi{
+    width: 150px;
+    border-radius: 12px;
+    background-color: rgb(243, 147, 69);
+    margin-top: -40px;
+}
+.booo{
+    margin-left: 450px;
+} 
+.gaz1{
+    width: 23%;
+    height: 350px;
+    border-radius: 12px;
+    background-color: #E5E5E5;
+    transition: all 0.3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gaz1 img{
+    width: 100%;
+}
+.booi{
+    text-align: center;
+}
+.gaz1:hover{
+    transform: scale(1.03);
+}
+
+.gazs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.h4{
+}
+
+.imges{
+    width: 40%;
+}
+.h12{
+    text-align: center;
+}
+.h33{
+    text-align: center;
+}
+.ppp1{
+    text-align: center;
+}
+.div-footer{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(240, 238, 238);
+    border-radius: 12px; 
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-right: 0;
+    flex-wrap: wrap;
+
+}
+.divch{
+    width: 50%;
+}
+.biii{
+    width: 50%;
+}
+.divv{
+    width: 100%;
+    height: 600px;
+    border: solid;
+}
+.inp{
+    width: 40%;
+    height: 120px;
+    border: solid;
+    border-radius: 12px;
+}
+.divv-f{
+    width: 100%;
+    height: 380px;
+    border: solid rgb(240, 234, 234) 6px ;
+    border-radius: 20px;
+}
+.divd{
+    width: 35%;
+    margin-top: 120px;
+}
+.mbappe{
+    margin-top: -19px ;
+}
+.imgw{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .box0{
+        width: 100%;
+        height: auto;
+    }
+    .gaz1{
+        width: 46%;
+        margin-top: 2rem;
+    }
+    /* .logo1{
+        width: 100px;
+    } */
+     .box1{
+        width: 100%;
+        text-align: center;
+     }
+     .divch{
+        width: 100%;
+     }
+     .biii{
+        width: 100%;
+     }
+     .img1{
+        height: 50vh;
+     }
+    
+}
