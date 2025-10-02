@@ -137,6 +137,7 @@ main{
     }
     .gaz1{
         width: 46%;
+        height: 32vh;
         margin-top: 2rem;
     }
     /* .logo1{
@@ -145,6 +146,9 @@ main{
      .box1{
         width: 100%;
         text-align: center;
+     }
+     .imgw{
+        height: 50vh;
      }
      .divch{
         width: 100%;
@@ -155,5 +159,14 @@ main{
      .img1{
         height: 50vh;
      }
+    
+}
+@media screen and (max-width: 600px) {
+    .gaz1{
+        height: 25vh;
+    }
+    .imgw{
+        height: 35vh;
+    }
     
 }
